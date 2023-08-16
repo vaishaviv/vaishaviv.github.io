@@ -9,4 +9,4 @@ Kendriya Vidyalaya IIT Bombay
 - Unlimited Wordle Bot (Python)
 - Library Management System SQL
 - Big project 1!
-- 
+- Cool project 1!
