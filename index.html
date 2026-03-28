@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vaishavi Venkatesh | Computer Science Student @ SUTD</title>
+  <meta name="description" content="Portfolio website for a computer science undergraduate student." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#hero" class="logo">VV.</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero section">
+      <div class="container hero-content">
+        <h1>Vaishavi Venkatesh</h1>
+        <p class="kicker">Computer Science @ SUTD | AI & ML | Web Development</p>
+        <p class="hero-copy">
+          I enjoy turning ideas into reliable products using scalable full-stack development, <br> AI-driven applications,
+          and human-centered design.
+        </p>
+        <a href="#projects" class="btn">See My Work</a>
+      </div>
+      <div class="hero-shape hero-shape-one" aria-hidden="true"></div>
+      <div class="hero-shape hero-shape-two" aria-hidden="true"></div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="container about-grid">
+        <div>
+          <h2>About Me</h2>
+          <p>
+            Hi, I'm Vaishavi! 
+            </p>
+         
+           <p>
+            I'm currently studying Computer Science and Design at the Singapore University of Technology and Design (SUTD), with a minor in Artificial Intelligence and Design, Technology, and Society.
+            </p>
+
+             <p>
+            I'm all about mixing code, creativity, and user-centered design to solve real problems — because I believe the best tools are the ones that make people's lives a little easier.
+
+          </p>
+          
+          <p>
+            When I'm not running from deadlines, you'll find me sketching, performing on stage, or buried in a book. These little sparks of inspiration often end up in my projects.
+
+          </p>
+        </div>
+        <img src="assets/profile/PFP.png" alt="Portrait of Vaishavi Venkatesh" class="face-image" />
+      </div>
+    </section>
+
+    <section id="projects" class="projects section">
+      <div class="container">
+        <h2>Projects</h2>
+
+        <div class="project-grid">
+
+          <article class="project-card">
+            <button
+              class="project-trigger"
+              data-title="ReachAble: Making Experiences Accessible"
+              data-layout="meta"
+              data-company="Personal Project"
+              data-skills="Entrepreneurship, Full-Stack Development, AI Integration, Testing"
+              data-timeline="Jan 2026 - Current"
+              data-narrative="**This project is still under development** ReachAble is a personal project by a team of 5, focused on making real-world experiences more accessible. 
+              We have been awarded the SUTD Baby Shark Fund of SGD 2000 for our idea."
+              data-hidelink="true"
+              data-image="assets/projects/reachable/cover.png"
+              data-imagealt="ReachAble project poster"
+              data-imageclickable="true"
+              data-video="assets/projects/reachable/demo.MOV"
+              data-videoalt="ReachAble demo video"
+            >
+              <img src="assets/projects/reachable/cover.png" alt="ReachAble project cover image" />
+            </button>
+            <h3>ReachAble</h3>
+            <p>Personal project building accessible experiences for wheelchair users.</p>
+          </article>
+
+
+          <article class="project-card">
+            <button
+              class="project-trigger"
+              data-title="Signify - Sign Language Learning App in Java"
+              data-overview="Signify is a real-time sign language recognition app that translates American Sign Language hand gestures into readable text. The project helps users learn ASL with immediate feedback, progress levels, and hearts. Our team won 3rd position in the Singtel Information System and Programming Award."
+              data-role="I designed and developed the core functionality, including in-lesson progress tracking, model training, and UI integration with computer vision. I also collaborated with teammates on version control and deployment."
+              data-features="Real-time hand gesture recognition via webcam||Deep learning model trained on ASL alphabet||Model built using Python with OpenCV and TensorFlow/Keras||Made using Java and Android Studio||Optimized for smooth performance and accurate detection||Modular structure for adding gestures or retraining on new datasets"
+              data-tech="Python, OpenCV, Java, Android Studio, TensorFlow, Keras, NumPy, matplotlib, GitHub, XML"
+              data-learned="End-to-end implementation of a computer vision pipeline||Building and training convolutional neural networks||Real-time frame processing and prediction||Team collaboration and source control via Git and GitHub"
+              data-challenges="Dealing with low light input and gesture variation||Ensuring prediction stability across frames||Integrating model predictions smoothly into a live UI"
+              data-link="https://github.com/example/signify"
+              data-hidelink="true"
+              data-image="assets/projects/signify/poster.png"
+              data-imagealt="Signify project poster"
+              data-imageclickable="true"
+              data-video="assets/projects/signify/demo.mp4"
+              data-videoalt="Signify project demo video"
+            >
+              <img src="assets/projects/signify/cover.png" alt="Signify ASL app cover image" />
+            </button>
+            <h3>Signify</h3>
+            <p>ASL recognition app with gamified learning and real-time feedback.</p>
+          </article>
+
+          <article class="project-card">
+            <button
+              class="project-trigger"
+              data-title="IM-OKToo"
+              data-layout="meta"
+              data-company="IM-OKToo Caregiver Support Platform"
+              data-skills="Full-Stack Development, AI Integration, Cloud Data Management, Testing"
+              data-timeline="May 2025 - August 2025"
+              data-narrative="IM-OKToo was conceived as a dedicated support system designed to alleviate the burdens faced by modern caregivers. Critical challenges such as burnout, emotional stress, and the lack of formal training were targeted through streamlined care routines and wellbeing monitoring tools. Accessibility and mental wellness were prioritized so intuitive and secure resources are available for daily caregiving. Community connection was fostered through moderated forums, while personalized guidance was delivered via an intelligent assistant to reduce cognitive load. Ultimately, the platform was engineered to empower users with responsive digital tools that enhance both efficiency and emotional resilience."
+              data-metafeatures="Full-Stack Architecture: Constructed using Vue.js and Node.js/Express, with data management handled via Google Cloud SQL||AI Conversational Agent: Claude API integrated alongside Speech-to-Text and Text-to-Speech for hands-free task management||AI Performance Testing: Response accuracy validated using Sentence-BERT evaluation, achieving a 0.8+ quality score||External Integrations: Google Calendar OAuth used for efficient scheduling and routine synchronization||Community Engagement: Real-time forum and news modules developed to support peer connection and resource access||Code Quality and Testing: MVC architecture and modular design patterns implemented, verified by 150+ unit, integration, and E2E tests using Jest"
+              data-hidelink="true"
+              data-slides="assets/projects/im-oktoo/slides.pdf"
+              data-slidestitle="IM-OKToo Presentation Slides"
+              data-video="assets/projects/im-oktoo/demo.mp4"
+              data-videoalt="IM-OKToo demo video"
+            >
+              <img src="assets/projects/im-oktoo/cover.png" alt="IM-OKToo caregiver app cover image" />
+            </button>
+            <h3>IM-OKToo</h3>
+            <p>Caregiver support platform focused on wellbeing, AI assistance, and workflow simplicity.</p>
+          </article>
+
+          <article class="project-card">
+            <button
+              class="project-trigger"
+              data-title="Cognitive Science Internship"
+              data-layout="meta"
+              data-company="Summer Research Internship Program, IIT Gandhinagar"
+              data-skills="Experimental Research, Data Processing, 3D Prototyping"
+              data-timeline="May 2024 - July 2024"
+              data-narrative="What if we could recreate the sensation of insects crawling on skin to help treat tactile hallucinations? Tactile hallucinations, where individuals feel crawling, itching, or biting without a physical cause, appear in conditions like schizophrenia and delusional parasitosis. In this internship, I designed a tactile stimuli system that mimics crawling-like sensations and tested different parameters to identify what best replicates that experience."
+              data-overview="Designing a tactile stimuli system to replicate insect crawling sensations. This work explored whether we can recreate crawling-like sensations on skin to support future treatment studies for tactile hallucinations seen in conditions like schizophrenia and delusional parasitosis."
+              data-role="Summer Research Internship Program at IIT Gandhinagar. Role: Experimental Research, Data Processing, and 3D Prototyping. Timeline: May to July 2024."
+              data-features="Designed a tactile system to mimic crawling sensations||Tested multiple stimulus parameters to approximate realistic crawling perception||Built and iterated 3D prototypes for hardware interaction||Processed and analyzed sensory-response data from experiments"
+              data-tech="Experimental Design, Data Processing, 3D Prototyping, Cognitive Science Research"
+              data-learned="How controlled tactile stimuli can be parameterized for perceptual realism||Practical methods for experimental iteration and data-backed refinement||Interdisciplinary collaboration between engineering and cognitive science"
+              data-challenges="Translating subjective sensory experience into measurable stimulus parameters||Maintaining consistency in tactile output across repeated trials||Balancing prototype constraints with experimental validity"
+              data-link="https://drive.google.com/file/d/1IizG_IasE3IDLqhwjdvsLCfX32t9cRGF/view"
+              data-linklabel="View Full Report"
+              data-image="assets/projects/cognitive-science/poster.png"
+              data-imagealt="Cognitive Science Internship tactile project poster"
+              data-imageclickable="true"
+            >
+              <img src="assets/projects/cognitive-science/cover.png" alt="Cognitive Science Internship cover image" />
+            </button>
+            <h3>Cognitive Science Internship</h3>
+            <p>Tactile stimuli system research to emulate insect crawling sensations.</p>
+          </article>
+
+          <article class="project-card">
+            <button
+              class="project-trigger"
+              data-title="3.007 Design Thinking"
+              data-layout="meta"
+              data-company="SUTD Course Project"
+              data-skills="Design Thinking, Interactive Experience, UI/UX, Sensory Design"
+              data-timeline="January 2024 - April 2024"
+              data-narrative="An interactive and sensory experience designed with the aim of providing an enlightening and relaxing environment for stressed students. The project combines thoughtful design principles with immersive elements to create a calming and rejuvenating space."
+              data-link="https://najwafyzd.wixsite.com/my-site-2"
+              data-linklabel="View Full Web Portfolio"
+              data-image="assets/projects/design-thinking/cover.png"
+              data-imagealt="3.007 Design Thinking project poster"
+              data-imageclickable="true"
+              data-video="assets/projects/design-thinking/demo.mp4"
+              data-videoalt="3.007 Design Thinking demo video"
+            >
+              <img src="assets/projects/design-thinking/cover.png" alt="3.007 Design Thinking project cover image" />
+            </button>
+            <h3>3.007 Design Thinking</h3>
+            <p>Interactive sensory experience for student wellness and relaxation.</p>
+          </article>
+
+          <article class="project-card">
+            <button
+              class="project-trigger"
+              data-title="Unlimited Wordle Bot"
+              data-layout="meta"
+              data-company="Personal Python Mini-Project"
+              data-skills="Python, Game Development, Algorithm Design"
+              data-timeline="Timeline not specified"
+              data-narrative="Python mini-project on the word guessing game that grew popular during lockdown. The original game had only one attempt a day, so I recreated the entire game and expanded it to allow unlimited attempts, making it more accessible for practice and experimentation."
+              data-link="https://github.com/vaishaviv/unlimited_wordle_bot"
+              data-linklabel="View Code"
+              data-video="assets/projects/wordle/demo.MOV"
+              data-videoalt="Unlimited Wordle Bot demo video"
+            >
+              <img src="assets/projects/wordle/cover.png" alt="Unlimited Wordle Bot project cover image" />
+            </button>
+            <h3>Unlimited Wordle Bot</h3>
+            <p>Python recreation of Wordle with unlimited attempts for practice and testing.</p>
+          </article>
+
+          <article class="project-card">
+            <button
+              class="project-trigger"
+              data-title="Line-Tracing Robot and the Travelling Salesman Problem"
+              data-layout="meta"
+              data-company="SUTD x Tianjin University"
+              data-skills="Python, Arduino, Robotics, Algorithms"
+              data-timeline="Timeline not specified"
+              data-narrative="Developed a solution for the Travelling Salesman Problem using exhaustive search in Python, and applied the route logic in a line-tracing robot context."
+              data-link="https://github.com/vaishaviv/line-tracing-robot"
+              data-linklabel="View Arduino Code"
+              data-secondarylink="https://github.com/vaishaviv/line-tracing-robot"
+              data-secondarylinklabel="View Python Code"
+              data-video="assets/projects/line-tracing/demo.MOV"
+              data-videoalt="Line-tracing robot demo video"
+            >
+              <img src="assets/projects/line-tracing/cover.png" alt="Line-tracing robot project cover image" />
+            </button>
+            <h3>Line-Tracing Robot and TSP</h3>
+            <p>Robot navigation project with exhaustive-search TSP optimization in Python.</p>
+          </article>
+
+          <article class="project-card">
+            <button
+              class="project-trigger"
+              data-title="Personal Art: Pinterest Board"
+              data-layout="meta"
+              data-company="Personal Project"
+              data-skills="Illustration, Watercolor, Color Theory, Composition"
+              data-timeline="Ongoing"
+              data-narrative="A curated collection of personal artworks and visual explorations, including portraits, watercolor studies, and stylized concept pieces."
+              data-link="https://pin.it/6DrFaGipi"
+              data-linklabel="View Pinterest Board"
+              data-image="assets/projects/art/image.png"
+              data-imagealt="Personal art collage"
+              data-imageclickable="true"
+            >
+              <img src="assets/projects/art/image.png" alt="Personal Art Pinterest board cover" />
+            </button>
+            <h3>Personal Art: Pinterest Board</h3>
+            <p>Personal artwork collection including portraits and watercolor studies.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience section">
+      <div class="container">
+        <h2>Experience</h2>
+        <div class="experience-content">
+          <a href="assets/docs/resume.pdf" download class="resume-btn">
+            <img src="assets/icons/pdf-icon.png" alt="PDF" class="pdf-icon">
+            Download Resume
+          </a>
+          <div class="resume-preview-container">
+            <img src="assets/docs/resume-1.png" alt="Resume preview image" class="resume-image" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="project-modal" aria-hidden="true" role="dialog" aria-labelledby="modal-title" aria-modal="true">
+    <div class="modal-backdrop" data-close="true"></div>
+    <div class="modal-panel">
+      <button class="modal-close" id="modal-close" aria-label="Close project details">&times;</button>
+      <div class="modal-content-grid">
+        <div class="modal-text-content">
+          <h3 id="modal-title"></h3>
+
+          <div class="modal-meta-grid" id="modal-meta-grid" hidden>
+            <div class="meta-item">
+              <h5>Company</h5>
+              <p id="modal-company"></p>
+            </div>
+            <div class="meta-item">
+              <h5>Skills</h5>
+              <p id="modal-skills"></p>
+            </div>
+            <div class="meta-item">
+              <h5>Timeline</h5>
+              <p id="modal-timeline"></p>
+            </div>
+          </div>
+
+          <p id="modal-narrative" class="modal-narrative" hidden></p>
+
+          <div id="modal-meta-features-wrap" hidden>
+            <h4>Key Features</h4>
+            <ul id="modal-meta-features" class="modal-list"></ul>
+          </div>
+
+          <div id="modal-detail-sections">
+            <p id="modal-overview"></p>
+            <p id="modal-role"></p>
+            <p id="modal-tech" class="modal-tech"></p>
+
+            <h4>Key Features</h4>
+            <ul id="modal-features" class="modal-list"></ul>
+
+            <h4>What I Learned</h4>
+            <ul id="modal-learned" class="modal-list"></ul>
+
+            <h4>Challenges Overcome</h4>
+            <ul id="modal-challenges" class="modal-list"></ul>
+          </div>
+
+          <div class="modal-links">
+            <a id="modal-link" href="#" target="_blank" rel="noopener noreferrer">View Repository</a>
+            <a id="modal-secondary-link" href="#" target="_blank" rel="noopener noreferrer" hidden>Secondary Link</a>
+          </div>
+        </div>
+        <div class="modal-media-column">
+          <div class="media-box" id="modal-image-media"></div>
+          <div class="media-box" id="modal-video-media"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
