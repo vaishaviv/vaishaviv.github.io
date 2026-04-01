@@ -125,6 +125,13 @@ h1 {
   max-width: 62ch;
 }
 
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
 .btn {
   display: inline-block;
   margin-top: 0.8rem;
@@ -140,6 +147,11 @@ h1 {
 
 .btn:hover {
   transform: translateY(-2px);
+}
+
+.btn-linkedin {
+  background: linear-gradient(120deg, #0a66c2, #0077b5);
+  box-shadow: 0 10px 25px rgba(10, 102, 194, 0.28);
 }
 
 .hero-shape {
